@@ -1,0 +1,215 @@
+@font-face
+{
+    font-family: Monda;
+    src: url('/newUniverse/fonts/monda/mondabold.ttf') format('truetype'),
+    url('/newUniverse/fonts/monda/mondabold.woff') format('woff'),
+    url('/newUniverse/fonts/monda/mondabold.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: Prime;
+    src: url('/newUniverse/fonts/prime/primeregular.ttf') format('truetype'),
+    url('/newUniverse/fonts/prime/primeregular.woff') format('woff'),
+    url('/newUniverse/fonts/prime/primeregular.woff2') format('woff2');
+}
+@font-face
+{
+    font-family: MSGothic;
+    src: url('/newUniverse/fonts/msGothic/MS Gothic.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: LithosPro;
+    src: url('/newUniverse/fonts/lithosPro/lithos_pro_black.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: EuroFont;
+    src: url('/newUniverse/fonts/euroFont/EurofontExtendedC.otf') format('opentype');
+}
+@font-face
+{
+    font-family: Play;
+    src: url('/newUniverse/fonts/play/Play-Regular.ttf') format('truetype');
+}
+@font-face
+{
+    font-family: KellySlab;
+    src: url('/siteWithoutName/fonts/KellySlab/KellySlab.otf') format('opentype');
+}
+@font-face
+{
+    font-family: yukarimobile;
+    src: url('/siteWithoutName/fonts/yukarimobile/yukarimobile.ttf') format('truetype');
+}
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.transitionStyle
+{
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+}
+.boxSizingStyle
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.index_container
+{
+    width: 100%;
+    height: 100%;
+    background-color: tan;
+}
+.index_navigation
+{
+    height: 36px;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    background-color: #b60015;
+    border-bottom: 2px solid #ffead6;
+}
+.index_navigation_left
+{
+    /*background-color: yellow;*/
+}
+.navButtons
+{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    cursor: pointer;
+}
+.showNav
+{
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    padding: 5px 6px;
+    /*background-color: yellow;*/
+}
+.closeNav
+{
+    width: 100%;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    padding: 0 6px;
+    /*background-color: yellow;*/
+}
+.showNavLine
+{
+    width: 23px;
+    height: 3px;
+    background-color: #ffead6;
+    margin: 4px 0;
+}
+.closeNavLine
+{
+    width: 23px;
+    height: 3px;
+    background-color: #ffead6;
+    position: absolute;
+    top: 16px;
+}
+.closeNavLine1
+{
+    transform-origin: 50%;
+}
+.closeNavLine2
+{
+    transform-origin: 50%;
+}
+.closeNavLine1Transform
+{
+    transform: rotate(225deg);
+}
+.closeNavLine1TransformReverse
+{
+    transform: rotate(0deg);
+}
+.closeNavLine2Transform
+{
+    transform: rotate(495deg);
+}
+.closeNavLine2TransformReverse
+{
+    transform: rotate(0deg);
+}
+.index_navigation_center
+{
+    /*background-color: red;*/
+}
+.index_navigation_center > a
+{
+    font-family: yukarimobile;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #ffead6;
+}
+.index_navigation_right
+{
+    /*background-color: blue;*/
+    padding: 5px 7px;
+}
+.index_navigation_right > ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.index_navigation_right > ul > li
+{
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.index_navigation_right > ul > li > a
+{
+    color: #ffead6;
+    text-decoration: none;
+    font-family: Play;
+    font-style: oblique;
+    font-size: 18px;
+}
+.index_navigation_right > ul > li > a:hover
+{
+    color: yellow;
+}
+.index_hidden_navigation
+{
+    width: 100%;
+    height: calc(100% - 38px);
+    position: absolute;
+    top: 38px;
+    left: 0;
+    padding: 25px;
+    background-color: #b60015;
+    display: none;
+    font-size: 150px;
+    font-family: Play;
+    text-align: center;
+    color: #ffead6;
+}
+.index_content
+{
+    height: calc(100% - 38px);
+    background-color: #ffead6;
+    font-size: 324px;
+    text-align: center;
+}
