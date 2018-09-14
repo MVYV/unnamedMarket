@@ -1,46 +1,46 @@
 @font-face
 {
     font-family: Monda;
-    src: url('/newUniverse/fonts/monda/mondabold.ttf') format('truetype'),
-    url('/newUniverse/fonts/monda/mondabold.woff') format('woff'),
-    url('/newUniverse/fonts/monda/mondabold.woff2') format('woff2');
+    src: url('/fonts/monda/mondabold.ttf') format('truetype'),
+    url('/fonts/monda/mondabold.woff') format('woff'),
+    url('/fonts/monda/mondabold.woff2') format('woff2');
 }
 @font-face
 {
     font-family: Prime;
-    src: url('/newUniverse/fonts/prime/primeregular.ttf') format('truetype'),
-    url('/newUniverse/fonts/prime/primeregular.woff') format('woff'),
-    url('/newUniverse/fonts/prime/primeregular.woff2') format('woff2');
+    src: url('/fonts/prime/primeregular.ttf') format('truetype'),
+    url('/fonts/prime/primeregular.woff') format('woff'),
+    url('/fonts/prime/primeregular.woff2') format('woff2');
 }
 @font-face
 {
     font-family: MSGothic;
-    src: url('/newUniverse/fonts/msGothic/MS Gothic.ttf') format('truetype');
+    src: url('/fonts/msGothic/MS Gothic.ttf') format('truetype');
 }
 @font-face
 {
     font-family: LithosPro;
-    src: url('/newUniverse/fonts/lithosPro/lithos_pro_black.ttf') format('truetype');
+    src: url('/fonts/lithosPro/lithos_pro_black.ttf') format('truetype');
 }
 @font-face
 {
     font-family: EuroFont;
-    src: url('/newUniverse/fonts/euroFont/EurofontExtendedC.otf') format('opentype');
+    src: url('/fonts/euroFont/EurofontExtendedC.otf') format('opentype');
 }
 @font-face
 {
     font-family: Play;
-    src: url('/newUniverse/fonts/play/Play-Regular.ttf') format('truetype');
+    src: url('/fonts/play/Play-Regular.ttf') format('truetype');
 }
 @font-face
 {
     font-family: KellySlab;
-    src: url('/siteWithoutName/fonts/KellySlab/KellySlab.otf') format('opentype');
+    src: url('/fonts/KellySlab/KellySlab.otf') format('opentype');
 }
 @font-face
 {
     font-family: yukarimobile;
-    src: url('/siteWithoutName/fonts/yukarimobile/yukarimobile.ttf') format('truetype');
+    src: url('/fonts/yukarimobile/yukarimobile.ttf') format('truetype');
 }
 html, body
 {
