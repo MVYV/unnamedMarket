@@ -36,5 +36,23 @@ function navigationButtons() {
 }
 
 $(document).ready(function () {
+    categories();
     navigationButtons();
 });
+
+/*
+TODO: remove log
+ */
+function categories() {
+    console.log("in categories function");
+    $.ajax({
+        url: "/categories",
+        type: "GET",
+        dataType: "json",
+
+        success(data) {
+            // $('.template').append("<h2>WELCOME</h2>");
+            $('.template').append(data);
+        }
+    })
+}
